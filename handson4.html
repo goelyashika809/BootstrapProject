@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Health Track Application</title>
+        <meta  charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+       <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+       .nav-link a:hover{
+        background-color: brown;
+
+    }
+    .material-icons {
+        vertical-align: middle;
+
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+ 
+}
+    </style>
+    </head>
+
+    <body style="background-color:whitesmoke;">
+        <div class="container-fluid">
+            <div class="nav row navbar  navbar-expand-lg navbar-dark bg-dark"  style="color: white">
+                <span class="navbar-brand-1 justify-content-md-right" style="font-size: 20px;">hTrack</span>
+         
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" >
+                    <span class="navbar-toggler-icon"></span>
+                    
+                </button>
+               
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="handson1.html" onMouseOver="this.style.color='brown'"  onMouseOut="this.style.color='white'" style="color:white;
+                    text-decoration:none;"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                <li><a href="handson3.html" onMouseOver="this.style.color='brown'"  onMouseOut="this.style.color='white'" style="color:white;
+                    text-decoration:none;"><span class="glyphicon glyphicon-gift"></span>  Products</a></li>
+                <li><a href="handson2.html" onMouseOver="this.style.color='brown'"  onMouseOut="this.style.color='white'" style="color:white;
+                text-decoration:none;"><span class="glyphicon glyphicon-leaf"></span>  Goals</a></li>
+                 <li><a href="handson4.html" onMouseOver="this.style.color='brown'"  onMouseOut="this.style.color='white'" style="color:white;
+                    text-decoration:none;"><span class="glyphicon glyphicon-pencil"></span> Edit Employee Details</a></li>
+                 <li><a href="index.html" onMouseOver="this.style.color='brown'"  onMouseOut="this.style.color='white'" style="color:white;
+                    text-decoration:none;"><span class="glyphicon glyphicon-chevron-left"></span> Main Menu</a></li>
+            </ul>
+        </div>
+            </div>
+
+        <br>
+        <br>
+        <div class="container">
+            <h3>New Employee</h3>
+            <form>
+            <div class="form-row">
+            <div class="form-group col-md-4">
+                  <label for="First-Name">First Name</label>
+                  <input type="text" class="form-control" style="padding: 2px;" id="First-Name" placeholder="First Name">
+                  <span class="badge badge-danger" style="font-size: 10px;"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Middle-Name">Middle Name</label>
+                <input type="text" class="form-control" style="padding: 2px;" id="Middle-Name" placeholder="Middle Name">
+                <span class="badge badge-danger" style="font-size: 10px;"></span>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="Last-Name">Last Name</label>
+              <input type="text" class="form-control" style="padding: 2px;" id="Last-Name" placeholder="Last Name">
+              <span class="badge badge-danger" style="font-size: 10px;"></span>
+            </div>
+              </div>
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                  <label for="address1">Address Line 1</label>
+                  <input type="text" class="form-control" style="padding: 2px;" id="address1" placeholder="Address Line">
+                  <span class="badge badge-danger" style="font-size: 10px;"></span>
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="address2">Address Line 2</label>
+                      <input type="text" class="form-control" id="address2" placeholder="Address Line 2">
+                      <span class="badge badge-danger" style="font-size: 10px;"></span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                        <label for="Email">Email</label>
+                        <input type="text" class="form-control" style="padding: 2px;" id="Email" placeholder="Email Id">
+                        <span class="badge badge-danger" style="font-size: 10px;"></span>
+                  </div>
+                  <div class="form-group col-md-3">
+                      <label for="Password">Password</label>
+                      <input type="text" class="form-control" style="padding: 2px;" id="Password" placeholder="Password">
+                      <span class="badge badge-danger" style="font-size: 10px;"></span>
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="CPassword">Confirm Password</label>
+                    <input type="text" class="form-control" style="padding: 2px;" id="CPassword" placeholder="Confirm Password">
+                    <span class="badge badge-danger" style="font-size: 10px;"></span>
+                  </div>
+                  </div>
+                  <div class="form-row">
+                  <div class="form-group col-md-3">
+                      <label for="category">Department</label>
+                      <select id="category" class="form-control">
+                          <option>Select</option>
+                          <option>Marketing</option>
+                          <option>HR</option>
+                          <option>Training</option>
+                          <option>Research</option>
+                      </select>
+                      <span class="badge badge-danger" style="font-size: 10px;"></span>
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="Date Of Birth">Date Of Birth</label>
+                    <input type="text" class="form-control" id="dateOfBirth">
+                  </div>
+                  <div class="form-group col-md-3">
+                      <label for="gender">Gender</label><br>
+                      <div class="custom-control custom-radio custom-control-inline" style="padding: 5px 10px;">
+                          <input type="radio" id="radio1" name="gender" class="custom-control-input">
+                          <label class="custom-control-label" for="radio1">Male</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline" style="padding: 5px 10px;">
+                          <input type="radio" id="radio2" name="gender" class="custom-control-input">
+                          <label class="custom-control-label" for="radio2">Female</label>
+                        </div>
+                        <span class="badge badge-danger" id="radio-error" style="font-size: 10px;"></span>
+                  </div>
+                  <div class="form-group col-md-3">
+                    <div class="form-group form-check" style="padding: 5px;">
+                      <label class="form-check-label" for="check1" style="margin: 0px; padding: 5px;">Permanent</label>
+                      <input type="checkbox" class="form-check-input" id="check1" style="margin: 5px; padding: 5px;">
+                    </div>
+                </div>
+              </div>
+                  <div class="form-row">
+                  <div class="form-group col-md-12" style="padding-bottom: 10px;">
+                      <a href="index.html"><button type="button" class="btn btn-primary" style="background-color: chartreuse; color: cornsilk;">Save</button></a>
+                  </div>
+                  </div>
+              </form>
+
+            </div>
+           
+
+
+
+<br>
+<br>
+<footer style=" background-color: black;
+color: cornsilk;
+border: blanchedalmond;
+border-style: solid;
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;">
+    &copy;copyright Yashika Goel<br>
+    Last Updated: April 2020
+</footer>
+    </body>
+
+    </html>
